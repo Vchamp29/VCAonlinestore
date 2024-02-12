@@ -8,30 +8,31 @@
     <link rel="icon" href="images/logo.jpg" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <h1 style="text-align: center;"><img src="images/logo.jpg" alt="Shop Logo" height="50">VCA Online Store<img src="images/logo.jpg" alt="Shop Logo" height="50">
-        </h1>
-        <div id="top">
-            <nav">
-                <a href="index.html">Home</a>
-                <a href="#about">About Us</a>
-                <a href="#products">Products</a>
-                <a href="#promos">Promos</a>
-                <a href="#contact">Contact Us</a>
+    <header id="top">
+        <br>
+        <h1>VCA Online Store</h1>
+            <nav>
+            <div id="logo">VCA Online Store<img src="images/logo.jpg" alt="Shop Logo" height="30"></div>
+                <ul>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#promos">Promos</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
             </nav>
-        </div>
-        <hr>
     </header>
-    <main style="margin: 15;">
+    <main style="text-align: center;">
+        <br>
         <article id="about">
             <h2>About Us</h2>
-            <section>
+            <section id="companyhistory">
                 <h3>&nbsp;Company History</h3>
                 <figure>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;“VCA Liquors, established in 2024, began as a small distillery in Los Angeles. With a passion for crafting unique spirits, VCA quickly gained recognition for its quality products. Over the years, the company expanded its portfolio to include a variety of liquors, from fine whiskies to premium vodkas. Today, VCA Liquors operates across the U.S. and Canada, with its products enjoyed by customers worldwide. Despite its growth, VCA remains committed to its roots, continuously innovating while maintaining the high standards that have made it a respected name in the liquor industry.”</p>
                 </figure>
             </section>
-            <section>
+            <section id="companylogo">
                 <h3>&nbsp;Company Logo</h3>
                 <figure style="text-align: center;">
                     <img src="images/logo.jpg" alt="Company Logo" height="200">
@@ -39,7 +40,7 @@
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;“Embodying the spirit of VCA Liquors, the logo is a testament to the brand’s commitment to quality and enjoyment. The circular brush stroke, rendered in a vibrant orange, symbolizes the company’s dynamic and creative approach to crafting spirits. The stylized glass icon above the bold ‘VCA’ letters signifies the company’s core product - liquor. The tagline ‘Drink & Enjoy’ below the acronym encapsulates the brand’s mission to provide a delightful experience to its customers. Overall, the logo reflects VCA Liquor’s dedication to excellence, innovation, and customer satisfaction in the beverage industry.”</p>
                 </figure>
             </section>
-            <section>
+            <section id="owner">
                 <h3>&nbsp;Owner</h3>
                 <figure style="text-align: center;">
                     <img src="images/owner.jpg" alt="Image of Owner" height="250">
@@ -50,8 +51,8 @@
         <hr>
         <article id="products">
             <h2>Products</h2>
-            <div id="categorydiv" style="text-align: center;">
-            <section id="categorydiv" style="background-color: yellowgreen;">
+            <div id="categorydiv">
+            <section id="branded" style="background-color: darkorange;">
                 <h3>Branded</h3>
                 <hr>
                 <figure>
@@ -84,8 +85,8 @@
                     </button>
                 </figure>
             </section>
-            <section id="categorydiv" style="background-color: aqua;">
-                <h3>Alcoholic beverage</h3>
+            <section id="category" style="background-color: chartreuse;">
+                <h3>Alcoholic Beverage</h3>
                 <hr>
                 <figure>
                     <img src="images/4.webp" alt="Liquor 1" height="100">
@@ -117,7 +118,7 @@
                     </button>
                 </figure>
             </section>
-            <section id="categorydiv" style="background-color: chocolate;">
+            <section id="category" style="background-color: aqua;">
                 <h3>Affordable Liquor</h3>
                 <hr>
                 <figure>
@@ -153,64 +154,48 @@
             </div>
         </article>
         <hr>
-        <article id="promos" style="text-align: center;">
+        <article id="promos">
             <h2>PROMOS</h2>
-            <section style="background-color: rgb(72, 207, 207);">
+            <section>
                 <br>
-                <figure>
+                <figure id="freeshipping">
                     <h3>FREE SHIPPING</h3>
                     <img src="images/freeship.png" alt="Free Shipping Image" width="150">
                     <figcaption>FREE SHIPPING UP TO June 23</figcaption>
-                    <p style="text-align: center; font-size: small;">
-                        Free Shipping for Orders Php 5,000.00 and Above up to June 23, 2024 Only!
-                    </p>
+                    <p style="text-align: center;">Free Shipping for Orders Php 5,000.00 and Above up to June 23, 2024 Only!</p>
                 </figure>
                 <br><br><br>
-                <figure>
+                <figure id="discount">
                     <h3>DISCOUNT</h3>
                     <img src="images/discount.png" alt="Discount Image" width="150">
                     <figcaption>25% OFF ON PURCHASES UP TO June 23</figcaption>
-                    <p style="text-align: center; font-size: small;">
-                        Get a 25% Discount on your Next Purchases up to June 23, 2024 Only!
-                    </p>
+                    <p style="text-align: center;">Get a 25% Discount on your Next Purchases up to June 23, 2024 Only!</p>
                     <br>
                 </figure>
             </section>
         </article>
         <hr>
-        <article id="contact">
+        <article>
             <h2>CONTACT US</h2>
-            <div id="contactdiv" style="text-align: center;">
-                <section id="contact1" style="background-color: yellow;">
-                    <h3>GMAIL</h3>
-                    <hr>
+            <div id="contact">
+                <section style="text-align: center;">
+                    <h3><img src="images/gmail.png" alt="" height="15">GMAIL</h3>
                     <figure>
-                        <img src="images/gmail.png" alt="GMAIL Image" width="200">
-                        <p style="text-align: center;"><a href="mailto:vchampabuan@gmail.com">vchampabuan@gmail.com</a></p>
+                        <p style="text-align: center;"><a href="mailto:vchampabuan@gmail.com"><b>vchampabuan@gmail.com</b></a></p>
                     </figure>
                 </section>
-
-                <section id="contact1" style="background-color: rgb(247, 169, 25);">
-                    <h3>CALL US</h3>
-                    <hr>
+                <section>
+                    <h3><img src="images/call.png" alt="Call Image" width="15">CALL US</h3>
                     <figure>
-                        <img src="images/call.png" alt="Call Image" width="150">
                         <p style="text-align: center;">09987654321</p>
                     </figure>
                 </section>
-
-                <section id="contact1" style="background-color: pink;">
-                    <h3>Message</h3>
-                    <hr>
-                    <figure>
-                        <img src="images/message.png" alt="Message" height="150">
+                <section>
+                    <h3><img src="images/message.png" alt="Message" height="20">Message</h3>
                         <form action="https://httpbin.org/get" method="get" target="_blank">
-                            <br>
-                            <textarea name="messagebox" id="messagebox" cols="20" rows="5"></textarea>
-                            <br>
+                            <textarea name="messagebox" id="messagebox" cols="10" rows="2"></textarea><br>
                             <button type="submit">Send</button>
                         </form>
-                    </figure>
                 </section>
             </div>
         </article>
