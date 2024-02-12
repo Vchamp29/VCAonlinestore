@@ -74,15 +74,6 @@ h1, h2 {
 p {
     text-align: justify;
 }
-
-main {
-    position: relative;
-    background-attachment: fixed;
-    background-image: url(images/smccblur.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #companyhistory, #companylogo, #owner, #freeshipping, #discount, #contact, #branded, #beverage, #affordable
 {
     background-color: blue;
